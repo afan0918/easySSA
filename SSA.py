@@ -14,7 +14,6 @@ class SSA:
         self.VT = None
         self.A = None
         self.windowLen = None
-        self.series_rand = None
         self.seriesLen = None
         self.K = None
         self.X = None
@@ -39,8 +38,7 @@ class SSA:
 
     def count(self, windowLen, series):
         self.windowLen = windowLen
-        self.series_rand = series_rand
-        self.seriesLen = len(series_rand)
+        self.seriesLen = len(series)
         self.K = self.seriesLen - windowLen + 1
         self.X = np.zeros((windowLen, self.K))
         self.series = series
