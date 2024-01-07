@@ -1,9 +1,6 @@
-# pytools
+# Singular Spectrum Analysis (SSA) Implementation
 
-挖ㄟpy小工具，想說寫點算法工具class
-
-目前實現
-* SSA 奇異譜分析
+An easy-to-use Python implementation of Singular Spectrum Analysis for time series analysis.
 
 ### SSA 奇異譜分析
 ![image](https://github.com/afan0918/pytools/assets/70462625/97f4f07a-a473-422b-8f66-68bb120eac84)
@@ -17,3 +14,5 @@
 圖三
 
 圖三是圖一中序列拆出來的前四主成分序列。
+
+可以參考class裡面的範例，把一維陣列傳入就可以使用了!
